@@ -38,6 +38,7 @@ namespace ProductApps
                 float totalPayment = (float)cProduct.TotalPayment;
 
                 totalChargeTextBox.Text = (totalPayment + 25).ToString();
+                totalChargeAfterWrapTextBox.Text = (totalPayment + 30).ToString();
             }
             catch (FormatException)
             {
